@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website HTML CSS</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <!-- <box-icons>  -->
+    <link rel="stylesheet"
+    href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+    <!-- <remix-icons> -->
+        <link
+        href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css"
+        rel="stylesheet"
+    />
+    <!-- google-fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&family=Roboto:wght@100;300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="sticky">
+        <a href="#" class="logo">
+           T. ABDUL REHMAN
+        </a>
+        <ul class="navbar">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#work">Projects</a></li>
+            <li><a href="#Contact">Contact</a></li>
+        </ul>
+        <div class="bx bx-menu" id="menu-icon"></div>
+    </header>
+
+    <section class="home" id="home">
+        <div class="home-text">
+            <h5>Hello, I'm Abdul</h5>
+            <h1>Front-End <br> Developer</h1>
+
+            <div class="social">
+                <a href="#">Follow Me on</a>
+                <a href="https://github.com/abdul-rehmant"><i class="ri-github-fill"></i></a>
+                <a href="https://www.linkedin.com/in/t-abdul-rehman-0283b1259/"><i class="ri-linkedin-fill"></i></a>
+                <a href="https://www.instagram.com/a_b_d_u_l__2k3/"><i class="ri-instagram-fill"></i></a>
+            </div>
+            <div class="button">
+                <a href="https://mail.google.com/mail/u/0/#inbox?compose=cSRfBPXKWSJZwPMqkbFjZZlfkThVwNjzgbqdXdqQBXRVZGKqKjqMPVxZDPfVjxbgPtwQbtBkNpVSBjVTLXqXFzXZBxTfTnfGmCkLjMnfRBHCGhNwQFsTDQNDDGJGjCtrBwWDKZMthJvJvCnqMdwdcJsrhdGSpQTL"><i class="ri-mail-open-line"></i>mail me</a>
+                <a href="RESUME.docx" class="btn2"><i class="ri-arrow-down-line"></i>Download CV</a>
+            </div>
+        </div>
+        <div class="home-img">
+            <img src="abdul-removebg-preview.png">
+        </div>
+    </section>
+
+    <!-- about -->
+    <section class="about" id="about">
+        <div class="center">
+            <div class="h-main">
+                <div class="h-text">
+                    <h2>About</h2>
+                </div>
+
+                <div class="h-btn">
+                    <a href="#" class="hh-btn">Read-more<i class="ri-arrow-right-line"></i></a>
+                </div>
+            </div>
+            <p>I am Abdul Rehman, a resident of Hyderabad for the past 20 years. Originally born in Anantapur, my educational journey began at T.I.M.E. School for my schooling, followed by Sri Chaitanya Jr College for my intermediate studies. Currently, I am pursuing further education at MJCET. Apart from my academic pursuits, I have a deep passion for playing cricket and basketball, finding joy in the thrill of sports. Additionally, I have a fascination for aviation, with a love for everything related to aircraft and flying. I am excited about exploring the intersection of my academic and personal interests, and I look forward to the opportunities that the future holds.</p>
+        </div>
+        <div class="about-content">
+            <div class="box">
+                <h3>Front-End</h3>
+                <a href="#">35+ Hours Experience</a>
+            </div>
+
+            <div class="box">
+                <h3>Coding</h3>
+                <a href="#">20+ Hours Experience</a>
+            </div>
+
+            <div class="box">
+                <h3>Python</h3>
+                <a href="#">10+ Hours Experience</a>
+            </div>
+        </div>
+
+    </section>
+    <!-- work -->
+    <section class="work" id="work">
+        <div class="center">
+            <div class="h-main">
+                <div class="h-text">
+                    <h2>Projects</h2>
+                </div>
+
+                <div class="h-btn">
+                    <a href="#" class="hh-btn">See All<i class="ri-arrow-right-line"></i></a>
+                </div>
+            </div>
+            <p>1. Food Ordering Web Application
+                (MERN).<br>
+                2. Student Registration Web Application(MERN).<br>
+                3. E-Commerce Website for a Local Business(MERN).<br>
+                4. Hospital Management Web Application(MERN).<br>
+                5. Booking of Party Halls for party(MERN).
+            </p>
+        </div>
+    </section>
+    <section  class="Contact" id="Contact">
+        <div class="center">
+            <div class="h-main">
+                <div class="h-text">
+                    <h2>Contact</h2>
+                </div>
+            </div>
+            <p> 
+                Mobile : 91+7396669616<br>
+                E-Mail : mohd.abdulrehman.t@gmail.com
+
+            </p>
+        </div>
+        <div class="contact-form">
+            <form name="submit-to-google-sheet">
+                <input type="text" placeholder="Name" required>
+                <input type="email" placeholder="Email" required>
+                <textarea name="" id="" cols="30" rows="10" placeholder="Message" required></textarea>
+                <input type="submit" value="submit-to-google-sheet" class="send-btn">
+            </form>
+
+        </div>
+
+    </section>
+    <div class="end-content">
+        <a href="#home" class="scroll-top">
+            <i class="ri-arrow-up-s-fill"></i>
+        </a>
+        <div class="copyright">
+            <p>DEVELOPED BY T.ABDUL REHMAN</p>
+        </div>
+
+    </div>
+
+
+    <script src="script.js">
+    const scriptURL = '<SCRIPT URL>'
+    const form = document.forms['submit-to-google-sheet']
+
+    form.addEventListener('submit', e => {
+    e.preventDefault()
+        fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => console.log('Success!', response))
+        .catch(error => console.error('Error!', error.message))
+    });
+    </script>
+</body>
+</html>
